@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.13.3.custom/jquery-ui.css">
+    <script type="text/javascript" src="jquery-ui-1.13.3.custom/external/jquery/jquery.js"></script>
+
+    <script type="text/javascript" src="jquery-ui-1.13.3.custom/jquery-ui.js"></script>
+    <script type="text/javascript" src="KabanliGercekActivity8.js"></script>
+    <style>
+        th {
+            text-align: left;
+        }
+
+        #birthday {
+            background-color: white;
+        }
+
+        .ui-datepicker {
+            background-color: white;
+        }
+        .ui-autocomplete {
+            background-color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <form id="myForm">
+        <table class="input-table">
+            <tr>
+                <th>What programming language do you know?</th>
+                <td><input id="language" type="text" required></td>
+            </tr>
+            <tr>
+                <th>What is your birthday?</th>
+                <td><input id="birthday" type="text" name="birthday"></td>
+            </tr>
+            <tr>
+                <th>Email Address</th>
+                <td><input type="email" name="phone" required placeholder="Enter a valid e-mail adress"
+                        pattern="https?://.+"></td>
+            </tr>
+            <tr>
+                <th>Website</th>
+                <td><input type="url" required></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
